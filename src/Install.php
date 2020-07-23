@@ -1,6 +1,6 @@
 <?php 
 
-namespace framework\\composer;
+namespace framework\composer;
 
 class Installer {
 
