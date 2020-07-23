@@ -1,0 +1,17 @@
+{
+    "name": "alexeygod/ds-composer",
+    "description": "composer php-extension for ds-framework",
+    "minimum-stability":"dev",
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Alexey G.",
+            "email": "forlem@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "framework\\composer\\": ""
+        }
+    }
+}
