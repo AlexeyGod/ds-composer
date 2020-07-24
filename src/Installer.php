@@ -6,11 +6,12 @@ class Installer {
 
 	public static function postInstallProject($event)
 	{
-		// Current directory vendor/alexeygod/composer
-		$dir = dirname( // up to alexeygod
-			dirname( // up to vendor
-				__DIR__
-			))
+		// Current directory \vendor\alexeygod\ds-composer\src
+		$dir = dirname( //ds-composer
+				dirname( // up to alexeygod
+					dirname( // up to vendor
+						__DIR__
+				)))
 		.'/assets';
 
 		mkdir($dir);
